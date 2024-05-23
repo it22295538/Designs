@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboard2"
+    tools:layout_editor_absoluteX="-56dp"
+    tools:layout_editor_absoluteY="-2dp">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/edge" />
+
+    <ImageButton
+        android:id="@+id/btn_next2"
+        android:layout_width="126dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="58dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        app:srcCompat="@drawable/baseline_double_arrow_24"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="440dp"
+        android:layout_height="393dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/onboard2" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="332dp"
+        android:layout_height="73dp"
+        android:text="Your Personal Beauty Consultant"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="381dp"
+        android:layout_height="183dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/rasa_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Discover flawless skin with B Care. Use your camera to identify concerns and receive personalized solutions tailored to your skin type and goals."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

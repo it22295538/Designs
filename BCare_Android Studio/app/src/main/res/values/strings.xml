@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tv_Launch">Beauty For All</string>
+    <string name="next">Next</string>
+    <string name="welcome_msg">Welcome to B CARE</string>
+    <string name="help_you">let’s us to help you</string>
+    <string name="email">Enter Email Address</string>
+    <string name="username">Enter User Name</string>
+    <string name="recm">Recommendations</string>
+    <string name="name">Kathrine Ann</string>
+    <string name="password">Enter Password</string>
+    <string name="re_pwd">Confirm Password</string>
+    <string name="birthDate">Enter Birth Date</string>
+    <string name="hint_email">abc@gmail.com</string>
+    <string name="hint_password">account password</string>
+    <string name="login">LOG IN</string>
+    <string name="create_acc">create account? sign up</string>
+    <string name="forget_pwd">Forget password?</string>
+    <string name="register">Register</string>
+    <string name="edit_btn">Edit</string>
+    <string name="btn_change">Change</string>
+    <string name="tv_skin">For\n Glass Skin</string>
+    <string name="tv_hair">For\n long and healthy hair</string>
+    <string name="tv_eyes">For\n glorious eyes</string>
+    <string name="tv_lips">For\n beautiful lips</string>
+    <string name="btn_onboard">GET STARTED</string>
+    <string name="greeting">GOOD MORNING ANN</string>
+    <string name="home_weather">Weather and UV Analysis</string>
+    <string name="home_moreArticle">To read more articles</string>
+    <string name="recent">Recent activity</string>
+    <string name="activity">Morning skincare routine complete\nEnjoyed an article by Dr.Sharma\nChecked today\s beauty route</string>
+    <string name="camera_advise">Be closer to the camera and let’s us to analyses  your face </string>
+    <string name="camera_report">Last analyses report</string>
+    <string name="camera_develpoment">Personal development</string>
+</resources>
